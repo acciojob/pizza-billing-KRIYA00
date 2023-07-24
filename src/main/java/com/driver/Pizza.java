@@ -77,6 +77,7 @@ public class Pizza {
                 bill += "\nExtra Toppings Added: " + toppingprice;
             if (ispaperbagadded)
                 bill += "\nPaperbag Added: " + paperbagprice;
+            bill +="\nTotal Price: "+totalprice;
         }
 
        /* Base Price Of The Pizza: 300
